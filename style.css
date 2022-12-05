@@ -1,0 +1,114 @@
+body {
+  background-color: #f5f5f5 !important
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  z-index: 1;
+  
+}
+
+.affix {
+  top: 0;
+  width: 100%;
+}
+
+.affix + .container-fluid {
+  padding-top: 0px;
+}
+
+.grad1 {
+  // height: 200px;
+  background: #4A412A;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #4A412A, #9f968f);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #4A412A, #9f968f);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #4A412A, #9f968f);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #4A412A, orange);
+  /* Standard syntax (must be last) */
+  background-size: cover;
+}
+
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+
+.noDecoration {
+  text-decoration: none;
+  color: #000;
+}
+
+.shadowText1 {
+  color: whitesmoke;
+  text-shadow: -2px 2px black;
+}
+
+.colorUgly {
+  /* Pantone 448C Opaque Couché voted ugliest color in the world! */
+  background-color: #4A412A;
+}
+
+.font1 {
+  font-family: Croissant One;
+}
+.font2 {
+  font: 68px/80px  Calligraffitti, serif;
+}
+
+.banner {
+  height: 120px;
+  //background-color: whitesmoke;
+  color: whitesmoke;
+}
+
+
+/* Add a gray background color and some padding to the footer */
+
+/*  thumbnail {
+  margin: 5px;
+  padding: 10px;
+  border: 0px;
+  border-radius: 50%;
+}
+*/
+
+.sideNav {
+  margin: 0 auto;
+  height: 150px;
+  background-color: yellow;
+}
+.works {
+  width: 100%;
+  img-size: cover;
+  img-position: 50% 50%;
+}
+
+.about {
+  background-color: blue;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+p.about {
+  margin: -1px auto;
+  padding: 10px;
+  background-color: lightblue;
+  color: blue;
+  font: 16px/20px Georgia, serif;
+}
+
+footer {
+  background-color: #4A412A;
+  padding: 0px;
+  color: whitesmoke;
+}
+
+@media screen and (max-device-width: 767px) {
+  .sideNav {
+    background-color: white;
+    height: auto;
+  }
+}
